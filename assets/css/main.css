@@ -1948,6 +1948,8 @@
 			}
 
 	ul.featured-icons {
+		width: 100%;
+		margin: auto;
 		cursor: default;
 		margin: -0.75em 0 0 0;
 		opacity: 0.35;
@@ -1955,11 +1957,16 @@
 		position: relative;
 	}
 
-		ul.featured-icons li {
+		ul.featured-icons svg {
 			display: block;
 			float: left;
 			text-align: center;
-			width: 50%;
+			width: 10%;
+			margin: 10px;
+		}
+
+		ul.featured-icons svg:hover {
+			z-index: 500;
 		}
 
 			ul.featured-icons li .icon {
